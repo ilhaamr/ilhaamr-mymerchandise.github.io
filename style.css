@@ -22,6 +22,7 @@ img {
     grid-template-areas: 
     'hero hero feature-1'
     'hero hero feature-2';
+    gap: 10px;
 }
 .hero{
     grid-area: hero;
@@ -30,6 +31,7 @@ img {
     background-size: cover;
     background-position:center;
     padding: 50px;
+    border-radius: 4px;
 }
 .hero h2, .hero p{
     display: none;
@@ -46,11 +48,13 @@ img {
     grid-area: feature-1;
     background-image: url(img/Hero-2.jpg);
     background-size: cover;
+    border-radius: 4px;
 }
 .feature-2{
     grid-area: feature-2;
     background-image: url(img/Hero-1.jpg);
     background-size: cover;
+    border-radius: 4px;
 }
 .features .price {
     font-size: 2em;
