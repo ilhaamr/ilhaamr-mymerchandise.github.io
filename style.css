@@ -26,7 +26,7 @@ img {
 .hero{
     grid-area: hero;
     min-height: 400px;
-    background-image: url(img/1.jpg);
+    background-image: url(img/Hero-3.jpg);
     background-size: cover;
     background-position:center;
     padding: 50px;
@@ -44,12 +44,12 @@ img {
 }
 .feature-1{
     grid-area: feature-1;
-    background-image: url(img/2.jpg);
+    background-image: url(img/Hero-2.jpg);
     background-size: cover;
 }
 .feature-2{
     grid-area: feature-2;
-    background-image: url(img/3.jpg);
+    background-image: url(img/Hero-1.jpg);
     background-size: cover;
 }
 .features .price {
@@ -108,7 +108,7 @@ img {
     .hero {
         display: flex;
         flex-direction: column;
-        align-items: start;
-        justify-content: center;
+        align-items:flex-start;
+        justify-content:flex-end;
     }
 }
